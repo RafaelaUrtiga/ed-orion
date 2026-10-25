@@ -1,0 +1,15 @@
+# Credenciais: nunca vão para o Git
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dados baixados e gerados localmente
+pdfs/
+livros.html
+prompts/
